@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "651193878227",
+    "firebase_url": "https://social-network-69a14-default-rtdb.firebaseio.com",
+    "project_id": "social-network-69a14",
+    "storage_bucket": "social-network-69a14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651193878227:android:c9fd8ab21e396b02c5b626",
+        "android_client_info": {
+          "package_name": "com.example.socialnetworkforpeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651193878227-1aqea0len91m56016q378p22rqtu42qa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbbBLv-MUxt-X_0zFNqSE-t2WX_1trXow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651193878227-1aqea0len91m56016q378p22rqtu42qa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

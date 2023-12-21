@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reg">
+    <LinearLayout
+        android:id="@+id/main000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#B3FFFFFF"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Регистрация"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:textColor="@color/purple_700"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Почта"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+
+            />
+        <EditText
+            android:id="@+id/LoginEditText"
+            android:layout_width="350dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@drawable/back"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пароль"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:id="@+id/PasswordEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/back">
+        </EditText>
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:id="@+id/RegButton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/mybutton"
+            android:text="Продолжить" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Уже есть аккаунт?"
+            android:textSize="20sp"
+            android:textColor="@color/purple_700"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
